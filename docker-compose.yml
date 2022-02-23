@@ -1087,8 +1087,8 @@ services:
         - ./data/certbot/certs/:/var/certs
         - ./certbot/letsencrypt/:/var/www/letsencrypt
       environment:
-        - CN="app.akkompany.com"
-        - EMAIL="hasan@akkompany.com"
+        - CN=app.akkompany.com
+        - EMAIL=hasan@akkompany.com
       networks:
         - frontend
 
